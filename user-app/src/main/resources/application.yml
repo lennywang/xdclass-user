@@ -22,7 +22,7 @@ spring:
 #spring.datasource.dbcp2.fi
 dubbo:
   application:
-    name: user-app
+    name: user-coupon
     qosPort: 22221
   # 使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper
   # 注册中心id

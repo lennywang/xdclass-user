@@ -30,7 +30,7 @@ class UserAppApplicationTests {
 			tCouponMapper.insert(tCoupon);
 		}
 	}
-	
+
 
 	@Test
 	void contextLoads() {

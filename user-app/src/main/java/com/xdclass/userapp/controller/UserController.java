@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 /**
  *
  **/
@@ -20,6 +21,7 @@ public class UserController {
 
     @RequestMapping("findUserById")
     public UserVO getUserById(Integer id) {
+
         if (id==null||id==0)
             return new UserVO();
 

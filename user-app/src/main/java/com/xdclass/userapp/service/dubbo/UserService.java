@@ -4,9 +4,9 @@ import com.xdclass.userapi.VO.UserVO;
 import com.xdclass.userapi.service.IUserService;
 import com.xdclass.userapp.domain.User;
 import com.xdclass.userapp.mapper.UserMapper;
-//import org.apache.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.BeanUtils;
-import org.springframework.stereotype.Service;
+//import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.concurrent.atomic.AtomicInteger;
